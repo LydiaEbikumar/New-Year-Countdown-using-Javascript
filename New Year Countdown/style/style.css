@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:alice;
+  }
+  .main{
+    padding: 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, #ea8e8e, hsl(51, 100%, 89%))
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient( #ec451f, #b1d894);
+    color:#000000;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-size: x-large;
+    padding: 10px 0px;
+  }
+  .counter{
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    justify-content:space-evenly;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  body>h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 15px  0px;
+  }
+  
+  body>p{
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  .counter .box{
+    width: 80px;
+    height: 70px;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+  }
+  
+  .counter .box:last-of-type::after{
+    display: none;
+  }
+  
+  .counter .box h2{
+    font-size:50px;
+    font-weight: 500;
+    text-align: center;
+  }
+  small{
+    padding: 10px;
+  }
+  .form{
+    margin: 20px;
+  }
+  .form input[type="text"]{
+    width: 230px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(4, 4, 4, 0.5);
+    background-color: transparent;
+    border-radius: 5px;
+    color:white;
+  }
+  .form input[type="text"]::placeholder{
+    color:rgba(255,255,255,0.7);
+  }
+  .form button{
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-color: cornflowerblue;
+    color:white;
+  }
+  button:hover{
+    color: #000;
+    background-color: rgb(140, 178, 249);
+  }
